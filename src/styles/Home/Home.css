@@ -1,0 +1,82 @@
+.title_home {
+  background: #222;
+  color: aqua;
+}
+.you_text_speak {
+  color: aqua;
+}
+.martec_text_reply {
+  color: rgb(255, 3, 3);
+}
+.margin {
+  margin-top: 150px;
+}
+.white_text {
+  color: aliceblue;
+}
+.correct_anwser {
+  color: rgb(0, 236, 0);
+}
+.listening_on {
+  color: rgb(0, 236, 0);
+}
+.listening_off {
+  color: rgb(255, 3, 3);
+}
+.center_level_one {
+  display: grid;
+  place-items: center; /* Center horizontally */
+}
+.game_container {
+  background: #000;
+  box-shadow: 1px 1px 10px 1px rgb(220, 0, 220);
+  padding: 60px 200px;
+}
+.levels {
+  color: aliceblue;
+  font-size: 30px;
+}
+.question {
+  color: aliceblue;
+  background: rgb(39, 39, 39);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.button_direction {
+  display: inline-flex;
+}
+/* .button {
+  background: purple;
+  color: aliceblue;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 40px;
+  font-weight: bold;
+
+}
+.button:hover {
+  cursor: pointer;
+  background: rgb(167, 0, 167);
+} */
+.button {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  /* font-size: 20px; */
+  background: #2e2e2e;
+  padding: 10px 35px;
+  margin-left: 1px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #373737;
+  text-decoration: none;
+  cursor: pointer;
+}
